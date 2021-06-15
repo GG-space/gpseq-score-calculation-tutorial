@@ -2,14 +2,14 @@
 
 <!-- MarkdownTOC -->
 
-- [Introudction](#introudction)
+- [Introduction](#introduction)
 - [Tutorial](#tutorial)
     - [Requirements](#requirements)
     - [Running GPSeq-RadiCal](#running-gpseq-radical)
 
 <!-- /MarkdownTOC -->
 
-## Introudction
+## Introduction
 
 Originally calculated with the Python package `gpseqc` ([here](https://github.com/ggirelli/gpseqc)), nowadays we generate GPSeq score tracks using the R script `GPSeq-RadiCal` ([here](https://github.com/ggirelli/GPSeq-RadiCal), faster and with lower storage/memory requirements).
 
