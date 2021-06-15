@@ -3,6 +3,7 @@
 First, download `GPSeq-RadiCal` with the following:
 
 ```bash
+cd $HOME
 wget https://github.com/ggirelli/GPSeq-RadiCal/archive/refs/tags/v0.0.6.zip
 unzip v0.0.6.zip
 rm v0.0.6.zip
