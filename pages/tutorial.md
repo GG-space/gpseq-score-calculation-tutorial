@@ -4,17 +4,17 @@ Before proceeding, please first consult the requirements page [here](../pages/re
 
 <!-- MarkdownTOC -->
 
-- [Download input](#download-input)
-- [Prepare metadata table](#prepare-metadata-table)
-- [Run GPSeq-RadiCal](#run-gpseq-radical)
-- [Inspect output](#inspect-output)
+- [1. Download input](#1-download-input)
+- [2. Prepare metadata table](#2-prepare-metadata-table)
+- [3. Run GPSeq-RadiCal](#3-run-gpseq-radical)
+- [4. Inspect output](#4-inspect-output)
 
 <!-- /MarkdownTOC -->
 
-## Download input
+## 1. Download input
 
-## Prepare metadata table
+## 2. Prepare metadata table
 
-## Run GPSeq-RadiCal
+## 3. Run GPSeq-RadiCal
 
-## Inspect output
+## 4. Inspect output
