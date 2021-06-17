@@ -25,11 +25,11 @@ mkdir input
 
 ```bash
 cd input
-curl https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM4037078&format=file&file=GSM4037078%5FExp1%5F10min%2Ebed%2Egz -o GSM4037078_Exp1_10min.bed.gz
-curl https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM4037079&format=file&file=GSM4037079%5FExp1%5F15min%2Ebed%2Egz -o GSM4037079_Exp1_15min.bed.gz
-curl https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM4037080&format=file&file=GSM4037080%5FExp1%5F30min%2Ebed%2Egz -o GSM4037080_Exp1_30min.bed.gz
-curl https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM4037081&format=file&file=GSM4037081%5FExp1%5F1h%2Ebed%2Egz -o GSM4037081_Exp1_1h.bed.gz
-curl https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM4037082&format=file&file=GSM4037082%5FExp1%5F2h%2Ebed%2Egz -o GSM4037082_Exp1_2h.bed.gz
+curl "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM4037078&format=file&file=GSM4037078%5FExp1%5F10min%2Ebed%2Egz" -o GSM4037078_Exp1_10min.bed.gz
+curl "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM4037079&format=file&file=GSM4037079%5FExp1%5F15min%2Ebed%2Egz" -o GSM4037079_Exp1_15min.bed.gz
+curl "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM4037080&format=file&file=GSM4037080%5FExp1%5F30min%2Ebed%2Egz" -o GSM4037080_Exp1_30min.bed.gz
+curl "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM4037081&format=file&file=GSM4037081%5FExp1%5F1h%2Ebed%2Egz" -o GSM4037081_Exp1_1h.bed.gz
+curl "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM4037082&format=file&file=GSM4037082%5FExp1%5F2h%2Ebed%2Egz" -o GSM4037082_Exp1_2h.bed.gz
 cd ..
 ```
 
@@ -37,7 +37,7 @@ cd ..
 
 ```bash
 # Download metadata table
-curl https://raw.githubusercontent.com/GG-space/gpseq-score-calculation-example/main/data/metadata.tsv -o metadata.tsv
+curl "https://raw.githubusercontent.com/GG-space/gpseq-score-calculation-example/main/data/metadata.tsv" -o metadata.tsv
 
 # Visualize table
 less metadata.tsv
@@ -47,7 +47,7 @@ less metadata.tsv
 ## 3. Run GPSeq-RadiCal
 
 ```bash
-curl https://raw.githubusercontent.com/GG-space/gpseq-score-calculation-example/main/data/hg19_chrom_size.bed -o hg19_chrom_size.bed
+curl "https://raw.githubusercontent.com/GG-space/gpseq-score-calculation-example/main/data/hg19_chrom_size.bed" -o hg19_chrom_size.bed
 
 ../gpseq-radical.R metadata.tsv output -c hg19_chrom_size.bed
 ```
