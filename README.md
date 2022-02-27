@@ -1,4 +1,4 @@
-# GPSeq score calulation example
+# GPSeq score calculation example
 
 <!-- MarkdownTOC -->
 
